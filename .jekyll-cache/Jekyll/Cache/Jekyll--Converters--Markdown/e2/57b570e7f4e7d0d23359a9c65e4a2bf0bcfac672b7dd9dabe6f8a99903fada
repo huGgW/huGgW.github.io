@@ -1,0 +1,39 @@
+I"�<h2 id="재귀와-반복">재귀와 반복?</h2>
+<p>어떤 수업에서 교수님께서는 다음과 같이 말씀하셨다.</p>
+<blockquote>
+  <p>같은 알고리즘이라고 할 지라도 
+재귀의 경우 반복문에 의해 Cost가 크기 때문에,
+가능하다면 반복문으로 작성하는 것이 좋다.</p>
+</blockquote>
+
+<p>그러나 다른 수업에서 교수님께서 다음과 같이 말씀하셨다.</p>
+<blockquote>
+  <p>최근에는 프로그래밍 언어가 발달하여 
+재귀문의 Cost가 반복문과 비슷하기 때문에, 
+원하는 방식으로 프로그램을 작성하면 된다.</p>
+</blockquote>
+
+<p>무엇이 사실일까? 
+그리고 애초에 왜 두 방식의 Cost가 차이나는 것일까?</p>
+
+<h2 id="재귀에서의-성능적-불리함">재귀에서의 성능적 불리함</h2>
+<p>재귀란 자기 자신을 계속 호출하는 함수를 말한다.
+간단하게 1부터 n까지 더하는 함수를
+    재귀함수로 만들어 보면 아래와 같다.</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">sum</span><span class="o">(</span><span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="mi">0</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="k">else</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="nf">sum</span><span class="o">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="o">)</span> <span class="o">+</span> <span class="n">n</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>여기서 n이 0보다 큰 경우 일어나는 과정을 살펴보면 다음과 같다.</p>
+<ol>
+  <li>sum(n-1)을 호출</li>
+  <li>호출된 함수의 반환값과 n을 더함</li>
+  <li>더한 값을 반환
+이 때, sum(n-1)의 관점에서 살펴보면, 자신이 할 일을 다 끝마친 후에,</li>
+</ol>
+:ET
