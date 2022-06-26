@@ -125,3 +125,6 @@ int sum(int n, int s) {
 
 >다만, 일부 프로그래밍 언어만 이를 지원하므로, 특정 케이스의 경우만 재귀를 반복문과 
     같은 성능으로 사용할 수 있다고 생각할 수 있겠다.
+
+## 추가 자료
+<https://en.wikipedia.org/wiki/Tail_call>
