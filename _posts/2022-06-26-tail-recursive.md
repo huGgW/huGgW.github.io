@@ -2,8 +2,8 @@
 layout: post
 title: 재귀의 최적화 (Optimization of Recursion)
 subtitle: 꼬리 재귀 (Tail Recursion)
-categories: 최적화
-tags: [프로그래밍 언어, 최적화]
+categories: [프로그래밍 언어]
+tags: [프로그래밍 언어, 알고리즘, 최적화]
 ---
 
 ## 재귀와 반복?
