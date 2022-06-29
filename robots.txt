@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://huGgW.github.io/sitemap.xml
