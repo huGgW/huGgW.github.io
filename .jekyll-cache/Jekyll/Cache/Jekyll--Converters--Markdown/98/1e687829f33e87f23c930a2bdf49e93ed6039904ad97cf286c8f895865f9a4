@@ -1,0 +1,8 @@
+I"�<h2 id="docker-virtualbox">Docker? VirtualBox?</h2>
+<p>Docker, VirtualBox 둘 다 가상화 관련 프로그램이다.<br />
+그리고 두 프로그램에 해당하는 ubuntu 이미지가 각각 존재한다.<br />
+그런데 얼핏 듣기로는 Docker는 가상머신과 다르게 컴퓨터 자체를 가상화하는 개념은 아니라고 들었는데, 운영체제인 ubuntu 이미지는 왜 있는걸까?<br />
+그리고, 애초에 운영체제 이미지 파일이 존재한다면, VirtualBox와는 차이점이 없는 것이 아닐까?<br />
+과연 두 ubuntu 이미지의 차이점은 무엇일까?<br />
+이에 대해서 한번 알아보자.</p>
+:ET
