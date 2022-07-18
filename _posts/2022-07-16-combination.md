@@ -2,8 +2,8 @@
 layout: post
 title: 조합 도출 알고리즘
 subtitle: 유클리드 호제법
-categories: 알고리즘
-tags: [알고리즘, 수학, Dynamic Programming]
+categories: Algorithm
+tags: [Algorithm, Math, Dynamic Programming]
 ---
 
 최근에 백준에 있는 단계별 알고리즘 문제를 처음부터 풀고 있다.  
